@@ -140,7 +140,7 @@ body {
 }
 .skills {
   height: 50%;
-  margin-top: 150px;
+  margin-top: 180px;
 }
 .h3 {
   height: 100px;
@@ -248,4 +248,7 @@ body {
 }
 .flecha {
   background-color: red !important;
+}
+.logo3 {
+    padding-left: 87px;
 }
