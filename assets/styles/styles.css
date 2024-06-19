@@ -142,12 +142,12 @@ body {
   height: 50%;
   margin-top: 150px;
 }
-.skills-h3 {
+.h3 {
   height: 100px;
   display: flex;
   flex-direction: column;
 }
-.skills-h3 h3 {
+.h3 h3 {
   color: var(--secondary-color);
   font-size: 3.5rem;
   margin: 0;
@@ -203,6 +203,7 @@ body {
 .container-items {
   padding-left: 70px;
   margin-top: 30px;
+  margin-bottom: 100px;
 }
 .icono {
   width: 50px;
@@ -213,4 +214,38 @@ body {
 .iconos {
     width: 100%;
     height: auto;
+}
+.proyects {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  
+}
+.img-proyect {
+  width: 90%;
+  height: auto;
+  border-radius: 3%;
+  padding-bottom: 50px;
+}
+.guion2 {
+  background-color: var(--secondary-color);
+  width: 230px;
+  height: 6px;
+  margin-top: 10px;
+  margin-left: 2px;
+  border-radius: 3px; /* Esquinas ligeramente redondeadas */
+  margin-left: 70px;
+}
+
+.item-proyects {
+  margin: 0;
+  margin-top: 40px;
+  padding: 0;
+  margin-bottom: 50px;
+}
+.proyect-col3 {
+  padding: 0;
+}
+.flecha {
+  background-color: red !important;
 }
