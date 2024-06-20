@@ -149,7 +149,7 @@ body {
 }
 .h3 h3 {
   color: var(--secondary-color);
-  font-size: 3.5rem;
+  font-size: 3rem;
   margin: 0;
   padding: 0;
   border: none;
@@ -222,10 +222,10 @@ body {
   
 }
 .img-proyect {
-  width: 90%;
+  width: 94%;
   height: auto;
   border-radius: 3%;
-  padding-bottom: 50px;
+  margin-left: 50px;
 }
 .guion2 {
   background-color: var(--secondary-color);
@@ -239,7 +239,7 @@ body {
 
 .item-proyects {
   margin: 0;
-  margin-top: 40px;
+  margin-top: 20px;
   padding: 0;
   margin-bottom: 50px;
 }
@@ -251,4 +251,40 @@ body {
 }
 .logo3 {
     padding-left: 87px;
+}
+.contacts {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.contact-h3 {
+    color:#ff4a57;
+}
+.form {
+    padding-left: 70px;
+}
+.mb-3 input {
+    width: 500px;
+    height: 70px;
+    background-color: #282a41;
+    border: 0;
+    font-weight: bold;
+}
+.mb-3 input::placeholder{
+    color: #1b1d30;
+}
+.custom-button {
+    width: 250px;
+    height: 50px;
+    background-color: #ff4a57; /* Background color */
+    border: none; /* Removes default border */
+    color: #ffffff; /* Text color */
+    font-weight: bold; /* Makes the text bold */
+    font-size: 1rem; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+    display: block; /* Ensures the button is block level */
+    margin-top: 20px; /* Adds space above the button */
+    margin-left: 263px;
+    margin-bottom: 80px;
 }
