@@ -50,7 +50,6 @@ body {
 }
 .nav-link {
   color: var(--primary-color);
-  transition: var(--transition);
   font-weight: 700;
   font-size: 1;
   margin-right: 20px;
@@ -58,6 +57,11 @@ body {
 .nav-item a:hover {
   color: var(--secondary-color);
 }
+.nav-link:focus,
+.nav-link:active {
+  color: var(--primary-color); /* Mantiene el color original */
+  outline: none; /* Elimina el contorno por defecto */
+} 
 .hero {
   width: 80%;
   min-height: 100vh; /* Set minimum height */
@@ -171,7 +175,6 @@ body {
  
   padding: 0;
   margin: 0;
-  margin-top: 10px;
 }
 .col-logo {
   display: flex;
@@ -181,14 +184,14 @@ body {
 }
 .custom-square {
   width: 300px; /* Set your custom width */
-  height: 280px; /* Set your custom height */
+  height: 230px; /* Set your custom height */
   margin-bottom: 20px; /* Space between squares */
   background-color: #2b2d41;
   margin-bottom: 40px; /* Reduce the space between squares */
   display: flex;
   flex-direction: column;
   padding: 40px;
-  padding-bottom: 10px;
+
   padding-top: 10px;
   text-align: start;
 }
@@ -202,8 +205,7 @@ body {
 }
 .container-items {
   padding-left: 70px;
-  margin-top: 30px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .icono {
   width: 50px;
@@ -239,7 +241,6 @@ body {
 
 .item-proyects {
   margin: 0;
-  margin-top: 20px;
   padding: 0;
   margin-bottom: 50px;
 }
@@ -287,4 +288,7 @@ body {
     margin-top: 20px; /* Adds space above the button */
     margin-left: 263px;
     margin-bottom: 80px;
+}
+.icon2 {
+  margin-bottom: 140px;
 }
