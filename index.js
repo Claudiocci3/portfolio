@@ -5,8 +5,8 @@ const project = document.getElementById('project');
 const contact = document.getElementById('contact');
 
 
-  function scrollSkill(e) {
-    e.preventDefault()
+  function scrollSkill(event) {
+    event.preventDefault()
     window.scroll(0, 590);
   }
 
